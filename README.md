@@ -4,7 +4,7 @@
 
 - Conteúdo;  
 - Semântico (tags);
-- 
+- Estrutura
 
 * `<h1>` - heading 1 - 6. Normalmente só chega no máximo ao terceiro nível.
 Usamos ele quando queremos definir títulos.  
@@ -16,11 +16,15 @@ Usamos ela para definir a navegação do usuário. Se você tem um texto que voc
 <a href="http://collabcode.training">CollabCode.Training</a>
 ```
 
-
-
-
 > <https://github.com/CollabCodeTech/XDs>
 
 Nota:
 
 > Sessões: Header, Produto, Botões.
+
+# CSS 
+
+É uma linguagem de estilo, isso quer dizer que ela tem as seguintes responsabilidades:
+
+- Visual;  
+
