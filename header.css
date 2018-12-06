@@ -1,6 +1,6 @@
 header {
   background-color: #e24647;
-  
+  overflow:auto;
 }
 
 h1,
@@ -11,12 +11,17 @@ a {
 h1 {
     font-size: 40px;
     text-align: left;
-    font-family: Arial, sans-serif
+    font-family: Arial, sans-serif;
+    height: 50px;
+    float: left;
+    
+    
 }
 a {
   text-decoration: none;
   font-size: 21px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
       
 }
 nav{
