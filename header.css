@@ -1,9 +1,10 @@
+
 header {
   background-color: #e24647;
   color: #fff;
   overflow:hidden;  
   margin: 0 115px;
-  padding: 55px 60px 95px; 
+  padding: 55px 60px 95px;
   }
 
 h1 {
@@ -15,9 +16,10 @@ nav{
     font-size: 21px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
     float: right;
+    
 }
 a {
   text-decoration: none;
-  color: inherit;      
+  color: inherit;
+  margin: 0 0 0 60px;
 }
-
