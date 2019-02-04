@@ -20,7 +20,22 @@ Usamos ela para definir a navegação do usuário. Se você tem um texto que voc
 
 Nota:
 
-> Sessões: Header, Produto, Botões.
+> Sessões: Header, Produto, Botões.  
+- Charset:
+```html
+<meta charset="utf-8">
+```
+O texto que mostra para o usuário fica delimitadas pelas tag `<body>...</body>`, já as tags de configuração ficam delimitadas pela tag `<head>...</head>`.
+
+- `DOCTYPE`
+```html
+<!DOCTYPE html>
+```
+
+- `<nav>` (nasceu no html5). Tags de estrutura.
+
+- Tag `<header>`: cabeçalho do site.
+- Tag `<title>`: Título do site. Dentro do `<head>` (sempre?!).
 
 # CSS 
 
