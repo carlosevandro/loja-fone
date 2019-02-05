@@ -43,3 +43,22 @@ O texto que mostra para o usuário fica delimitadas pelas tag `<body>...</body>`
 
 - Visual;  
 
+## Para passar o link do CSS: ##
+Colocar entre as tags `<head> e </head>`:
+```html
+<link rel="stylesheet" href="header.css">
+```
+## background-color: ##
+
+## color: ##
+
+## text-decoration ##
+- Tirar tracinho debaixo do link: `text-decoration: none;`
+
+## Reset CSS - meyerweb.com ##
+- Criar arquivo `reset.css` com o conteúdo de `http://meyerweb.com/eric/tools/css/reset/`.
+- Colocar entre as tags `<head> e </head>`:
+```html
+<link rel="stylesheet" href="reset.css">
+```
+**antes** de outros arquivos CSS.
