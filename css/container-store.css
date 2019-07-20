@@ -1,14 +1,14 @@
 .container-store{
     background-color: #e24647;
-    width: 80%;
+    width: 90%;
     position: absolute;
     left: 50%;
     top: 50%;
-    transform: translateX(-50%) translateY(-50%);
-    padding: 55px 60px 95px;    
+    transform: translateX(-50%) translateY(-50%);        
   }
 
   .description-list{
+    display: inline-block;
     color: white;
     font-size: 20px; 
     font-family: "Roboto", Arial, sans-serif;
@@ -44,4 +44,19 @@ dd > a {
 
 .description-button{
   display: inline-block;
+}
+.product-frame{
+  float: left;
+  width: 601px;
+  height: 574px;
+  border-radius: 0 150px 150px 0;
+  background-color: #ffffff;
+  margin-top: 95.5px;  
+  text-align: right;
+}
+.product-img{
+  float: right;
+  margin-top: 27px;
+  margin-left: 105px;
+  box-sizing: content-box;  
 }
