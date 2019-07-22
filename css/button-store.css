@@ -14,12 +14,21 @@
     border: none;
   }
 /* variação */
-  .button-store.-second{
-    display: inline-block;          
+  .button-store.-second{         
     background-color: transparent;
     border: 2px solid #fff;
     width: 218px;  
     /* 60px (altura) - 2px (borda top) - 2px (borda bottom) = 56px*/  
     line-height: 56px;
-    margin-right: 60px;    
+    margin-right: 38px;    
+  }
+
+  /* a vírgula funciona como um OU */
+  .button-store > button,
+  .button-store > a {
+    font-size: inherit;
+    background-color: inherit;
+    border: none;
+    color: inherit;
+    text-decoration: inherit;
   }
